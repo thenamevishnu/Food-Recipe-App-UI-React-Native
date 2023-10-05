@@ -4,7 +4,7 @@ import { ScrollView } from "react-native";
 
 export function CategoryFilter() {
     return (
-       <View style={{marginHorizontal:10, marginTop:10}}>
+       <View style={{marginHorizontal:10, marginTop:10, paddingVertical:10}}>
             <ScrollView horizontal>
                 {
                     categories.map((item, index) => {
